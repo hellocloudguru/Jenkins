@@ -1,12 +1,15 @@
 node {
-        stage('Hello 1') {
-            echo 'Hello World 1'
-        }
-           
-        stage('Hello 2') {
-            echo 'Hello World 2'
-        }
-        stage('Hello 3') {
-            echo 'Hello World 3'
-        }      
+
+  stage('This is stage 1'){
+  echo "Hello world 1"
+  }
+  
+  stage('This is stage 2'){
+  echo "Hello world 2"
+  }
+  
+  stage('This is stage 3'){
+  echo "Hello world 3"
+  }  
+  
 }
