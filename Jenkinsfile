@@ -1,5 +1,5 @@
 node {
-    try (
+    try {
     stage('Hello 1') {
         echo 'Hello World 1'
     }
@@ -13,4 +13,4 @@ node {
     }
     
 }
-        }
+}
